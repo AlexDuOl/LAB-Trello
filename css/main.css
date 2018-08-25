@@ -1,0 +1,256 @@
+/* Body */
+body{
+  background-color: #00aecc;
+  margin: 0;
+  width: 100%;
+}
+
+/* HEADER */
+header {
+ background-color: #0094ae;
+ border: #0094ae;
+ box-sizing: border-box;
+ height: 8vh;
+ left: 0;
+ right: 0;
+ margin: 0;
+ position: relative;
+ width: 100%;
+}
+
+/*SECCION BOTONES ICONOS IZQUIERDA*/
+.leftbutton button {
+ background-color: #66bfce;
+ border-style: none;
+ border-radius: 3px;
+ color: white;
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
+ height: 2.6em;
+ left: 2%;
+ padding-left: 3px;
+ position: absolute;
+ text-align: right;
+ top: 15%;
+ width: 8em;
+}
+
+.leftbutton img.mark {
+ background-color: #66bfce;
+ font-weight: bold;
+ height: 1.9em;
+ left: 2.1em;
+ position: absolute;
+ top: .6em;
+ width: 1.9em;
+}
+
+.barra input {
+ background-color: #66bfce;
+ border-style: none;
+ border-radius: 3px;
+ font-family: 'PT Sans', sans-serif;
+ height: 2.5em;
+ left: 11%;
+ position: absolute;
+ top: 15%;
+ width: 18em;
+}
+
+.fa-search {
+ background-color: none;
+ color: white;
+ font-weight: bold;
+ left: 23em;
+ position: absolute;
+ top: 1em;
+}
+
+/*ICONO TRELLO*/
+ .trello img {
+  height: 2em;
+  left: 45%;
+  position: absolute;
+  top: 15%;
+  width: 6.5em;
+}
+
+/*SECCION BOTONES ICONOS DERECHA*/
+div button {
+ background-color: #66bfce;
+ border-style: none;
+ border-radius: 8px;
+ color: white;
+ font-weight: bold;
+ height: 2.5em;
+ position: absolute;
+ text-align: center;
+ top: 15%;
+ width: 2.5em;
+}
+
+.bell {
+ left: 93%;
+}
+
+.info {
+ left: 90%;
+}
+
+.plus {
+ left: 87%;
+}
+
+.user {
+ left: 96%;
+}
+
+/* MAIN*/
+article {
+  background-color: #00aecc;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  padding: 1px;
+  width: 100%;
+}
+
+span {
+  box-sizing: content-box;
+  font-weight: bold;
+  padding: 4px;
+  position: relative;
+}
+
+span i .fa-star .fa-briefcase {
+  color: white;
+  padding: 4px;
+  position: absolute;
+}
+
+.menu a {
+  color: white;
+  left: 60%;
+  padding: 2px;
+  position: relative;
+}
+
+/* CONTAINER*/
+
+.addList {
+  display: inline-block;
+  border-style: none;
+  border-radius: 3px;
+  background-color: #0094ae;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  height: 5vh;
+  margin-left: 20px;
+  padding-left: 10px;
+  text-align: left;
+  width: 20vw;
+}
+
+#firtsId, #secondId{
+  display: inline-block;
+  float:left;
+  height: auto;
+  width: fit-content;
+}
+
+.conteiner {
+  background-color: #e2e4e6;
+  border-radius: 3px;
+  float: left;
+  margin: 5px;
+  padding: 2.5px;
+  top: 0;
+  width: 20.6vw;
+}
+
+.conteinerauto {
+  background-color: #e2e4e6;
+  border-radius: 3px;
+  float: left;
+  height: auto;
+  margin: 5px;
+  padding: 2.5px;
+}
+
+.botonCancel {
+  display: inline-block;
+  color: #AAAAAA;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 7px;
+  text-align: center;
+}
+
+.guardar {
+  background-color: #519839;
+  border-radius: 3px;
+  display: inline-block;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 9px;
+  padding: 7px;
+}
+
+.newInput {
+  border-style: none;
+  border-radius: 3px;
+  background-color:#aaa;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  left: 1.6vh;
+  padding: 10px;
+  text-align: left;
+  top: 1vh;
+  width: 19.5em;
+  }
+
+.newElement {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-bottom: 15px;
+  width: 19.5em;
+}
+
+.link {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  margin-left: 2px;
+  margin-bottom: 2em;
+  padding-bottom: 12px;
+  text-decoration: underline;
+  width: 19.5em;
+}
+
+.bottonTwo {
+  background-color: #519839;
+  border-radius: 3px;
+  display: inline-block;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 5px;
+  padding: 7px;
+}
+
+.textArea {
+  border-radius: 4px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  width: 90%;
+}
