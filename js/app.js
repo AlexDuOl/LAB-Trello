@@ -2,8 +2,8 @@ var section = document.getElementById('section')
 var firtsId = document.getElementById('firtsId');
 var secondId = document.getElementById('secondId');
 var addList = document.getElementById('addList');
-var botton = document.createElement('botton');
-var bottonX = document.createElement('bottonX');
+var button = document.createElement('button');
+var buttonX = document.createElement('buttonX');
 
 /*-----------------PRIMERA VERSION AÑADIR UNA LISTA--------------------*/
 addList.addEventListener('click', firts);
@@ -11,13 +11,13 @@ addList.addEventListener('click', firts);
 function firts(){
   var conteinerFirst = document.createElement('div');
   conteinerFirst.className = 'conteiner';
-  botton.className = 'guardar';
-  bottonX.className = 'botonCancel';
+  button.className = 'guardar';
+  buttonX.className = 'butonCancel';
   addList.className = 'newInput';
-  botton.type = 'button';
-  botton.appendChild(document.createTextNode('Guardar'));
-  bottonX.type = 'buttonX';
-  bottonX.innerHTML = '&times;';
+  button.type = 'button';
+  button.appendChild(document.createTextNode('Guardar'));
+  buttonX.type = 'buttonX';
+  buttonX.innerHTML = '&times;';
   firtsId.appendChild(conteinerFirst);
   conteinerFirst.appendChild(addList);
   conteinerFirst.appendChild(botton);
@@ -27,7 +27,7 @@ addList.removeEventListener('click', firts);
 };
 
 /*-----------------SEGUNDA VERSION AÑADIR UNA LISTA--------------------*/
-botton.addEventListener('click', second);
+button.addEventListener('click', second);
 
 function second(){
   var newName = document.getElementById('addList').value;
@@ -52,18 +52,18 @@ function second(){
   /*-----------------TERCERA VERSION AÑADIR UNA LISTA--------------------*/
 newLink.addEventListener('click', function (){
 
-  var bottonTwo = document.createElement('bottonTwo');
+  var buttonTwo = document.createElement('buttonTwo');
   var textArea = document.createElement('textArea');
-  bottonTwo.className = 'bottonTwo';
+  buttonTwo.className = 'buttonTwo';
   textArea.className = 'textArea';
 
   document.getElementById('addList').value;
 
-  bottonTwo.appendChild(document.createTextNode('Añadir'));
-  newLink.appendChild(bottonTwo);
+  buttonTwo.appendChild(document.createTextNode('Añadir'));
+  newLink.appendChild(buttonTwo);
 
   conteinerTarea.appendChild(textArea);
-  conteinerTarea.appendChild(bottonTwo);
+  conteinerTarea.appendChild(buttonTwo);
   secondId.appendChild(conteinerTarea);
 
   newLink.style.display = 'none';
@@ -72,7 +72,7 @@ newLink.addEventListener('click', function (){
      textArea.style.backgroundColor = '#ABC5D3';
   });
 /*-----------------QUINTA VERSION AÑADIR NUEVAS LISTAS--------------------*/
-bottonTwo.addEventListener('click', function (){
+buttonTwo.addEventListener('click', function (){
 
   var addTextArea = textArea.value;
   var newTextArea = document.createElement('h4');
@@ -89,7 +89,7 @@ bottonTwo.addEventListener('click', function (){
     addList.addEventListener('click', function (){
 
         textArea.style.display = 'none';
-        bottonTwo.style.display = 'none';
+        buttonTwo.style.display = 'none';
 
         });
 
